@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;   
+}
+header {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    gap: 20px;
+    position: fixed;
+    z-index: 1000;
+}
+h1 {
+    color: rgb(240, 108, 189);
+    margin-left: 100px;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(239, 73, 176);
+}
+.programa-titulo {
+    display: block;
+    text-align: center;
+}
+.seccion-1 {
+    background-image: url(Imagenes/hero.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+.programar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.programar h2 {
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+}
+.programar a {
+    text-decoration: none;
+    background-color: rgb(239, 73, 176);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.programar a:hover {
+    background-color: rgb(210, 65, 154);
+}
+.seccion-2 {
+    height: 550px;
+    padding-top: 50px;
+    width: 100%;
+}
+.somos {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.somos-ada {
+
+    margin-left: 30px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+}
+.somos-ada h2 {
+    font-size: 40px;
+}
+.ada-itw-titulo {
+    color: rgb(240, 108, 189);
+}
+.somos-ada p {
+    margin-top: 10px;
+}
+.imagen {
+    width: 420px;
+    height: 300px;
+}
+.seccion-3 {
+    height: 550px;
+    background-color: #1E1E1E;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+.seccion-3 h2 {
+    padding-top: 80px;
+    display: block;
+    font-size: 45px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.programador {   
+    width: 300px;
+    height: 350px;
+    padding-bottom: 10px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 1rem;
+    margin-top: 70px;
+    position: relative;
+    margin-top: 30px;   
+}
+.programador p {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.programador h3 {
+    padding-top: 30px;
+    font-weight: 900;
+}
+.boton {
+    text-decoration: none;
+    background-color: rgb(239, 73, 176);
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+.programador img {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 1px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    top: 2px;
+    opacity: 0.4;   
+}
+.seccion-4 {
+    height: 550px;
+    margin-top: 50px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.seccion-4 ul {
+    list-style: none
+}
+ul {
+    line-height: 2;
+}
+.imagen-4 {
+    margin-left: 200px;
+}
+.seccion-5 {
+    height: 550px;   
+}
+.programacion-5 {
+    background-color: rgb(240, 108, 189);
+    height: 450px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;                      
+}
+.programacion-5 h2{
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.programacion-5 a {
+    background-color: rgb(239, 73, 176);
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    font-weight: bolder;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;  
+}     
+.footer-ada{
+   display: block;  
+}
+
+ 
